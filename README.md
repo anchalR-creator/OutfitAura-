@@ -1,17 +1,5 @@
 # 👗 OutfitAura — Backend API
 
-\<p align="center">
-&#x20; \<strong>A Fashion-Tech Application for Personalized Outfit Styling\</strong>
-\</p>
-
-\<p align="center">
-&#x20; \<img src="[https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)" alt="Python"/>
-&#x20; \<img src="[https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&logo=fastapi\&logoColor=white)" alt="FastAPI"/>
-&#x20; \<img src="[https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge\&logo=sqlalchemy\&logoColor=white)" alt="SQLAlchemy"/>
-&#x20; \<img src="[https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge\&logo=sqlite\&logoColor=white)" alt="SQLite"/>
-&#x20; \<img src="[https://img.shields.io/badge/API-REST-blue?style=for-the-badge](https://img.shields.io/badge/API-REST-blue?style=for-the-badge)" alt="REST API"/>
-&#x20; \<img src="[https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge](https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge)" alt="Project Status"/>
-\</p>
 
 ## 📌 About the Project
 
@@ -127,10 +115,10 @@ Ongoing development focuses on backend API functionality, outfit styling logic, 
 
 **Anchal Rodrigues**
 
-🌐 GitHub: [@](https://github.com/manyasuresh113)anchaR-creator
+🌐 GitHub: [@]https://github.com/anchaR-creator
 
 ---
 
-\<p align="center">
-&#x20; Made with ❤️ for smarter and more personalized fashion.
-\</p>
+
+Made with ❤️ for smarter and more personalized fashion.
+
