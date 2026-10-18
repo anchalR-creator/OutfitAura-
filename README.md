@@ -1,56 +1,136 @@
-# Welcome to your Expo app 👋
+# 👗 OutfitAura — Backend API
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+\<p align="center">
+&#x20; \<strong>A Fashion-Tech Application for Personalized Outfit Styling\</strong>
+\</p>
 
-## Get started
+\<p align="center">
+&#x20; \<img src="[https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)" alt="Python"/>
+&#x20; \<img src="[https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&logo=fastapi\&logoColor=white)" alt="FastAPI"/>
+&#x20; \<img src="[https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge\&logo=sqlalchemy\&logoColor=white)" alt="SQLAlchemy"/>
+&#x20; \<img src="[https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge\&logo=sqlite\&logoColor=white)" alt="SQLite"/>
+&#x20; \<img src="[https://img.shields.io/badge/API-REST-blue?style=for-the-badge](https://img.shields.io/badge/API-REST-blue?style=for-the-badge)" alt="REST API"/>
+&#x20; \<img src="[https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge](https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge)" alt="Project Status"/>
+\</p>
 
-1. Install dependencies
+## 📌 About the Project
 
-   ```bash
-   npm install
-   ```
+**OutfitAura** is a fashion-tech application designed to support personalized outfit styling and wardrobe management. This repository contains the backend API, developed using Python and FastAPI, that powers the application's outfit-related features.
 
-2. Start the app
+The backend provides API endpoints for outfit creation, outfit correction, wardrobe operations, and AuraMatch, forming the foundation for frontend integration.
 
-   ```bash
-   npx expo start
-   ```
+## ✨ Key Features
 
-In the output, you'll find options to open the app in a
+- 👚 **Create My Outfit** — Accepts user profile details and styling preferences for personalized outfit recommendations.
+- 🎨 **Correct My Outfit** — Handles outfit correction requests.
+- 🪄 **AuraMatch** — Supports matching a desired style reference with wardrobe items.
+- 👗 **Wardrobe Management** — Provides API functionality for managing wardrobe items.
+- ⚡ **REST API** — Enables communication between the backend and frontend.
+- 📚 **Interactive API Documentation** — Supports endpoint exploration and testing through Swagger UI.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🛠️ Tech Stack
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+| Technology     | Purpose                             |
+| -------------- | ----------------------------------- |
+| 🐍 Python      | Backend development                 |
+| ⚡ FastAPI      | REST API framework                  |
+| ✅ Pydantic     | Request validation and data schemas |
+| 🗄️ SQLAlchemy | Database integration                |
+| 💾 SQLite      | Local database storage              |
+| 🚀 Uvicorn     | ASGI server                         |
 
-## Get a fresh project
+## 📂 Project Structure
 
-When you're ready, run:
-
-```bash
-npm run reset-project
+```text
+OutfitAura/
+├── backend/
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── database.py
+│   │   └── ...
+│   ├── requirements.txt
+│   └── ...
+├── README.md
+├── LICENSE
+└── .gitignore
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+*Note: The structure above illustrates the expected layout. Refer to the actual repository for the complete file structure.*
 
-### Other setup steps
+## 🚀 Getting Started
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+### 📋 Prerequisites
 
-## Learn more
+- Python installed on your system
+- pip package manager
+- Git
 
-To learn more about developing your project with Expo, look at the following resources:
+### 1️⃣ Clone the Repository
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+git clone https://github.com/manyasuresh113/OutfitAura.git
+cd OutfitAura/backend
+```
 
-## Join the community
+### 2️⃣ Create a Virtual Environment
 
-Join our community of developers creating universal apps.
+**Windows — PowerShell**
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Start the Development Server
+
+```bash
+python -m uvicorn app.main:app --reload
+```
+
+### 5️⃣ Explore the API
+
+Once the server is running, access the interactive documentation:
+
+- 📘 **Swagger UI:** [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+- 📗 **ReDoc:** [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
+
+## 🔐 Security
+
+- Keep API keys and sensitive credentials out of source control.
+- Store secrets in environment variables.
+- Exclude `.env` files and virtual environments from Git.
+- Configure authentication and CORS appropriately before production deployment.
+
+## 🚧 Project Status
+
+**Currently in development.**
+
+Ongoing development focuses on backend API functionality, outfit styling logic, wardrobe management, and frontend integration.
+
+## 🔮 Future Enhancements
+
+- 🤖 AI-powered outfit image generation
+- 🎯 Enhanced outfit personalization
+- 🔗 Complete frontend-backend integration
+- 🧪 Automated testing and improved error handling
+- ☁️ Production deployment
+
+*These enhancements represent future work and are not claimed as completed features.*
+
+## 👩‍💻 Author
+
+**Anchal Rodrigues**
+
+🌐 GitHub: [@](https://github.com/manyasuresh113)anchaR-creator
+
+---
+
+\<p align="center">
+&#x20; Made with ❤️ for smarter and more personalized fashion.
+\</p>
